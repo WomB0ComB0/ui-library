@@ -1,5 +1,5 @@
 {
-  "name": "ui-lib",
+  "name": "@WomB0ComB0/ui-library",
   "version": "0.0.1",
   "type": "module",
   "files": [
@@ -17,7 +17,8 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test": "exit 0"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.0",
@@ -67,6 +68,6 @@
     "url": "git+https://github.com/WomB0ComB0/ui-library.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/wombo_combo"
+    "@WomB0ComB0:registry": "https://npm.pkg.github.com"
   }
 }

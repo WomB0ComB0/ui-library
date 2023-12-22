@@ -13,8 +13,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "./src/components/index.tsx"),
-      name: "UiLib",
-      fileName: "ui-lib",
+      name: "ui-library",
+      fileName: "ui-library",
     },
     rollupOptions: {
       external: ["react", "react-dom"],
