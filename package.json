@@ -1,16 +1,19 @@
 {
-  "name": "@WomB0ComB0/ui-library",
+  "name": "@wombo_combo/ui-library",
   "version": "0.0.1",
   "type": "module",
+  "description": "Use the right package manager",
+  "author": "Mike Odnis <mikeodnis3242004@gmail.com>",
+  "homepage": "https://github.com/WomB0ComB0/ui-library#readme",
   "files": [
     "dist"
   ],
-  "main": "dist/simple-ui-umd.cjs",
-  "module": "dist/simple-ui.js",
+  "main": "dist/ui-library-umd.cjs",
+  "module": "dist/ui-library.js",
   "exports": {
     ".": {
-      "import": "./dist/simple-ui.js",
-      "require": "./dist/simple-ui-umd.cjs"
+      "import": "./dist/ui-library.js",
+      "require": "./dist/ui-library-umd.cjs"
     }
   },
   "scripts": {
@@ -26,35 +29,37 @@
     "eslint-plugin-react": "^7.33.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwind-merge": "^2.1.0"
+    "tailwind-merge": "^2.2.0"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^7.6.4",
-    "@storybook/addon-interactions": "^7.6.4",
-    "@storybook/addon-links": "^7.6.4",
-    "@storybook/addon-onboarding": "^1.0.9",
-    "@storybook/blocks": "^7.6.4",
-    "@storybook/react": "^7.6.4",
-    "@storybook/react-vite": "^7.6.4",
-    "@storybook/test": "^7.6.4",
-    "@types/react": "^18.2.37",
-    "@types/react-dom": "^18.2.15",
-    "@typescript-eslint/eslint-plugin": "^6.10.0",
-    "@typescript-eslint/parser": "^6.10.0",
-    "@vitejs/plugin-react": "^4.2.0",
+    "@changesets/cli": "^2.27.1",
+    "@storybook/addon-essentials": "^7.6.6",
+    "@storybook/addon-interactions": "^7.6.6",
+    "@storybook/addon-links": "^7.6.6",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.6",
+    "@storybook/react": "^7.6.6",
+    "@storybook/react-vite": "^7.6.6",
+    "@storybook/test": "^7.6.6",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.4",
+    "eslint-plugin-react-refresh": "^0.4.5",
     "eslint-plugin-storybook": "^0.6.15",
     "postcss": "^8.4.32",
-    "storybook": "^7.6.4",
-    "tailwindcss": "^3.3.6",
-    "typescript": "^5.2.2",
-    "vite": "^5.0.0",
+    "storybook": "^7.6.6",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
     "vite-plugin-dts": "^3.6.4",
     "vite-tsconfig-paths": "^4.2.2"
   },
+  "packageManager": "pnpm@8.11.0",
   "resolutions": {
     "jackspeak": "2.1.1"
   },
@@ -63,11 +68,11 @@
     "react-dom": "^18.2.0"
   },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antfu/ni/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WomB0ComB0/ui-library.git"
-  },
-  "publishConfig": {
-    "@WomB0ComB0:registry": "https://npm.pkg.github.com"
   }
 }
